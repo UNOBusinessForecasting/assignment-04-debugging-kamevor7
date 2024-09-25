@@ -14,7 +14,7 @@ for i in code:
             exec("".join(i['source']))
 
 
-class test3x8(unittest.TestCase):
+class testCases(unittest.TestCase):
 
     def test3x8(self):
       result = '  [ 4 6 1 9 10 12 1 7 ]\n  [ 1 2 3 4 5 6 7 8 ]\n  [ 19 0 3 1 10 15 -1 -1 ]\n\n'
